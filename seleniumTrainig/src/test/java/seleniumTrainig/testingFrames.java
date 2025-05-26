@@ -22,7 +22,7 @@ public class testingFrames {
 		String child = iterator.next();
 		driver.switchTo().window(child);
 		System.out.println("Switched Succesfully");
-//		
+		driver.close();
 	}
 
 }
